@@ -1,0 +1,27 @@
+[
+  {
+      "dish": "Smoke Salmon",
+      "ingredients": "fish, salt, lemons, bread",
+      "cooking_method": "Place fish on bread, add a touch of salt and lemon."
+  },
+  {
+      "dish": "Custard Tart",
+      "ingredients": "Flour, Sugar, Eggs",
+      "cooking_method": "Mix flour sugar and eggs."
+  },
+  {
+      "dish": "Cheese Cake",
+      "ingredients": "pastry, eggs, milk, flour, sugar",
+      "cooking_method": "prepare pastry into mould and bake."
+  },
+  {
+      "dish": "Spaghetti Bolonese",
+      "ingredients": "Spaghetti, minced beef, tomatoes",
+      "cooking_method": "Cook beef in a pan until brown then add tomatoes."
+  },
+  {
+      "dish": "Minestroni Soup",
+      "ingredients": "Carrots, Potatoes, Tomatoes, Flour, Milk, Salt",
+      "cooking_method": "Chop the Carrots, patatoes, tomatoes into small pieces."
+  }
+]
