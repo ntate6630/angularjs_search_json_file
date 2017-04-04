@@ -1,22 +1,26 @@
-# Using AngularJS to search for a keyword in a JSON file and display info connected with the keyword in the view.
+# Using AngularJS to read a JSON file and search and display data connected with the keyword in the view.
 
 ## Overview
 
 ### What is this app for?
 
-This app will search a JSON file for the ingredients and cooking instructions when a recipe name is entered into the search box.
+This app will read from a JSON file the recipe name, ingredients and cooking instructions 
+when a recipe name is entered into the search box.
 
 ## Features
 
 ### Existing Features
-- View data objects in the console is working
+- Created a JSON file with "dish", "ingredients" and "method" entries
+- Added a service to read the JSON file.
+- View data objects in the console for testing
+- Create a web page that displays a table
+- Added a search box
+- Added Angular "Search, filter, and byOrder - alphabetical sorting of recipes" 
 
 ### Features Left to Implement
-- Create web page
-- Add search box
-- Add Angular search, repeat and filter functions
-- Output the data to ng-view
+- Display data in ng-view
 - Style with CSS
+- Use this projects code in the Stream 1 project
 
 
 ### Getting the code up and running
