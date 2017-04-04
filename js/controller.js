@@ -4,12 +4,12 @@ angular.module('RouteControllers', [])
         $scope.title = "Home";
     })
 
-    .controller('SearchController', function($scope, searchService)
+    .controller('SearchController', function($scope, read_json_Service)
     {
-        var promise = searchService.getDish();
+        var promise = read_json_Service.getDish();
         promise.then(function (data)
         {
-            $scope.cooking_instructions = data;
+            $scope.cooking_instructions = data.data;
             console.log($scope.cooking_instructions);
         });
-    })
+    });
