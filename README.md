@@ -1,11 +1,11 @@
-# Using AngularJS to read a JSON file and search and display data connected with the keyword in the view.
+# Using AngularJS to read a JSON file and search data connected with the keyword in the view.
 
 ## Overview
 
 ### What is this app for?
 
-This app will read from a JSON file the recipe name, ingredients and cooking instructions 
-when a recipe name is entered into the search box.
+- This app will read from a JSON file the recipe name, ingredients and cooking instructions into a table. 
+- The table is sorted alphabetically and can be searched by recipe name.
 
 ## Features
 
